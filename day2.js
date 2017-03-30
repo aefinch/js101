@@ -70,8 +70,9 @@ for (var x=0; x<5; x++) {
 	console.log(index);
 
 //for loop that starts at 100 and divides by 2 each time 3 times = 100,50,25
-num=100;
+var num=100;
 for (var y=0; y<3; y++){
+	console.log(num);
 	num=num/2;
 }
 console.log(num);
